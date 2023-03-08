@@ -8,6 +8,17 @@ body {
     margin: 0;
 }
 
+main {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    margin-top: 0;
+    max-width: 80ch;
+}
+
 nav {
     margin: 0;
     display: flex;
@@ -34,11 +45,7 @@ nav a.current {
 
 article {
     flex: 1;
-    background-color: white;
-    margin: auto;
-    padding: 10px;
-    margin-top: 0;
-    max-width: 80ch;
+    width: 100%;
 }
 
 article .profile-picture {

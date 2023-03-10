@@ -55,13 +55,35 @@ article {
     flex: 1;
 }
 
+article ul {
+    list-style: none;
+}
+
+article ul img {
+    max-width: 80%;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+article iframe {
+    width: 80%;
+    height: 300px;
+}
+
 article h1 {
     font-family: 'Inconsolata', monospace;
     font-size: 50px;
     color: salmon;
 }
 
+article .costum-link {
+    color: green;
+    text-decoration-color: pink;
+    text-decoration-thickness: 3px;
+}
+
 article .profile-picture {
+    height: 100px;
+    width: 100px;
     display: inline;
     float: right;
     margin: 20px;
